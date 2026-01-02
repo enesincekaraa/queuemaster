@@ -1,0 +1,11 @@
+# Default: treat as text and normalize
+* text=auto
+
+# Unix scripts
+mvnw text eol=lf
+*.sh text eol=lf
+
+# Windows scripts
+mvnw.cmd text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
